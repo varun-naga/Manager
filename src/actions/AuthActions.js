@@ -18,7 +18,7 @@ export const passwordChanged = (text) => {
     payload: text,
   };
 };
-export const loginUser = ({ email, passwor }) => {
+export const loginUser = ({ email, password }) => {
   return (dispatch) => {
     dispatch({ type: LOGIN_USER });
     firebase
